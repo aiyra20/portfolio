@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Vitória - Desenvolvedora Frontend</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+
+    <style>
+        /* Modo dark */
+        body.dark-mode {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode .cabecalho,
+        body.dark-mode .menu ul li a {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode .projeto {
+            background-color: #1e1e1e;
+            border: 1px solid #2e2e2e;
+        }
+
+        body.dark-mode .btn-mostrar-projetos {
+            background-color: #2e2e2e;
+            color: #e0e0e0;
+        }
+
+        #toggle-theme {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            z-index: 999;
+            color: inherit;
+        }
+    </style>
+</head>
+
+<body class="dark-mode">
+
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">MV</h1>
+        </a>
+
+        <!-- Botão de alternância de tema -->
+        <button id="toggle-theme" aria-label="Alternar tema">
+            🌞
+        </button>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#projetos">Meus Projetos</a></li>
+                <li><a href="#certificacoes">Certificações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="informacoes">
+            <h1>Olá! Meu nome é Vitória.</h1>
+            <p>Sou uma desenvolvedora Front-end em formação, apaixonada por tecnologia e inovação.</p>
+            <p>Tenho grande entusiasmo por aprender constantemente e aplicar novos conhecimentos para criar experiências
+                digitais incríveis.</p>
+            <p>Estou dedicada a evoluir profissionalmente, sempre buscando entregar o meu melhor em cada projeto.</p>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://wa.me/5592991821230" title="Enviar Mensagem no WhatsApp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/aiyra20" title="Ir para o GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/aiyra.1_/" title="Ir para o Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://linkedin.com/in/maria-vitória-b801812a0" title="Ir para o linkedin" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="./src/imagens/perfil-sem-cobra.png" alt="Foto Do Portfólio Da Aiyra">
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <h2 class="titulo">Meus Projetos</h2>
+        <div class="container-projetos">
+            <div class="projeto ativo">
+                <a href="https://aiyra20.github.io/pedido/" target="_blank">
+                    <!--AS IMAGENS DEVEM TER 515X700-->
+                    <img src="./src/imagens/projeto-pedido.jpg" alt="Projeto Simples de Pedido para Sair">
+                    <h3>Projeto Quer Sair Comigo? ❤</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="https://aiyra20.github.io/dia-dos-namorados/" target="_blank">
+                    <img src="./src/imagens/projeto-dia-dos-namorados.jpg" alt="Projeto Dia dos Namorados">
+                    <h3>Projeto Dia dos Namorados ❤</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS, JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="https://aiyra20.github.io/clima/" target="_blank">
+                    <img src="./src/imagens/projeto-previsao-do-tempo.jpg" alt="Projeto  Previsão do Tempo">
+                    <h3>Projeto Previsão do Tempo</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS, JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="https://aiyra20.github.io/gta-projeto/" target="_blank">
+                    <img src="./src/imagens/projeto-gta.png.jpg" alt="Projeto Landing page GTA">
+                    <h3>Projeto GTA</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS, JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://aiyra20.github.io/one-piece/" target="_blank">
+                    <img src="./src/imagens/projeto-one-piece.png.jpg" alt="Projeto One Piece" />
+                    <h3>Projeto One Piece</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://aiyra20.github.io/x-men/" target="_blank">
+                    <img src="./src/imagens/projeto-x-men.png.jpg" alt="Projeto X-MEN" />
+                    <h3>Projeto X-MEN</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://aiyra20.github.io/pokedevs/" target="_blank">
+                    <img src="./src/imagens/projeto-pokedevs.png.jpg" alt="Projeto Pokedevs" />
+                    <h3>Projeto Pokedevs</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS E JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://aiyra20.github.io/CLONE-YU-GI-OH/" target="_blank">
+                    <img src="./src/imagens/projeto-yu-gi-oh.jpg" alt="Projeto Clone YU-GI-OH" />
+                    <h3> Projeto Clone YU-GI-OH</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS E JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://github.com" target="_blank">
+                    <img src="..." alt="teste" />
+                    <h3> Projeto 7 </h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript </p>
+                        <P>🔗 Ver no GitHub Pages</P>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://github.com" target="_blank">
+                    <img src="..." alt="teste" />
+                    <h3> Projeto 8 </h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript </p>
+                        <P>🔗 Ver no GitHub Pages</P>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://github.com" target="_blank">
+                    <img src="..." alt="teste" />
+                    <h3> Projeto 9 </h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript </p>
+                        <P>🔗 Ver no GitHub Pages</P>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://github.com" target="_blank">
+                    <img src="515X700" alt="teste" />
+                    <h3> Projeto 10 </h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript </p>
+                        <P>🔗 Ver no GitHub Pages</P>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <button class="btn-mostrar-projetos">Mostrar mais</button>
+
+
+        <section class="certificacoes" id="certificacoes">
+            <h2 class="titulo">Certificações</h2>
+
+            <div class="container-certificacoes">
+                <div class="certificacao">
+                    <h3>HTML, CSS & JavaScript</h3>
+                    <p>Dio.</p>
+                    <span>BOOTCAMP • 2024</span>
+
+                    <div class="certificados-miniaturas">
+                        <img src="./src/imagens/certificado-introducao-logica-de-programacao.png"
+                            data-img="./src/imagens/certificado-introducao-logica-de-programacao.png"
+                            alt="Certificado de Conclusão">
+                    </div>
+
+                    <div class="certificados-miniaturas">
+                        <img src="./src/imagens/certificado-criando-portfolio.png"
+                            data-img="./src/imagens/certificado-criando-portfolio.png" alt="Certificado de Conclusão">
+                    </div>
+
+                    <div class="certificados-miniaturas">
+                        <img src="./src/imagens/certificado.1.jpg" data-img="./src/imagens/certificado.1.jpg"
+                            alt="Certificado de Conclusão">
+                    </div>
+
+                    <!-- <div class="certificados-miniaturas">
+                        <img src="./src/imagens/certificado-introducao-logica-de-programacao.png" data-img="./src/imagens/certificado-introducao-logica-de-programacao.png"
+                            alt="Certificado de Conclusão">
+                    </div> -->
+
+
+                </div>
+
+                <div class="certificacao">
+                    <h3>Semana do Zero ao Programador Contratado</h3>
+                    <p>Dev em Dobro</p>
+                    <span>Jornada • 2026</span>
+
+                    <div class="certificados-miniaturas">
+                        <img src="./src/imagens/certificado.2.jpeg" data-img="./src/imagens/certificado.2.jpeg"
+                            alt="Certificado de Participação">
+                    </div>
+                </div>
+
+                <!-- EXEMPLO PARA OUTRAS CERTIFICAÇÕES -->
+                <div class="certificacao">
+                    <h3>Git & GitHub</h3>
+                    <p>Curso Online</p>
+                    <span>Curso • 2024</span>
+
+                    <div class="certificados-miniaturas">
+                        <img src="./src/imagens/certificado-git-github.png"
+                            data-img="./src/imagens/certificado-git-github.png" alt="Certificado Git e GitHub">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MODAL DO CERTIFICADO -->
+        <div class="modal-certificado" id="modalCertificado">
+            <span class="fechar">&times;</span>
+            <img id="imagemCertificado" alt="Imagem do certificado">
+        </div>
+
+        <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
