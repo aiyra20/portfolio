@@ -99,7 +99,7 @@ body {
 	transform: scale(1.2);
 }
 
-/* FOTO */
+/* ================= FOTO ================= */
 
 .home .container-foto .foto {
 	max-width: 450px;
@@ -198,6 +198,12 @@ body {
 .btn-certificado:hover {
 	transform: translateY(-2px);
 	filter: drop-shadow(0 12px 28px rgba(127, 90, 240, 0.55));
+}
+
+/* CENTRALIZAR BOTÃO "MOSTRAR MAIS" */
+.projetos .btn-mostrar-projetos {
+    margin: 40px auto 0;
+    display: block;
 }
 
 /* REMOVE FOCO FEIO */
